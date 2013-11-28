@@ -1,0 +1,28 @@
+Name: harbour-cubetimer
+Summary: CubeTimer
+Version: 1.0.0
+Release: 1
+Group: Qt/Qt
+License: GPLv3
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: "With this native SailfishOS application you can train your skills in
+  \nsolving the Rubiks Cube. It gives you scramble instructions, a big timer \nwhich
+  starts on release, it saves your record, your average and the last \ntime you've
+  needed to solve the Cube. You can also select a variable \ninspection time, before
+  the timer starts and if you want you can use it \nalso as a pure stopwatch.\n"
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- sailfishapp
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+Requires:
+- sailfishsilica-qt5
+Files:
+- '%{_bindir}'
+- '%{_datadir}/%{name}/qml'
+- '%{_datadir}/applications/%{name}.desktop'
+- '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'
+PkgBR: []

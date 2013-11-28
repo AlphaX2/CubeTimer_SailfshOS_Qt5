@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=CubeTimer
+Icon=/usr/share/icons/hicolor/86x86/apps/harbour-cubetimer.png
+Exec=harbour-cubetimer
+
